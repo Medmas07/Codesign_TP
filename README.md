@@ -1,6 +1,9 @@
 # TP-CODESIGN Delivery
 
 Final delivery package for OpenCL matrix multiplication benchmarks and multi-device analysis.
+## Optimization Steps
+
+![Applied optimization steps](assets/code_explanation.png)
 
 ## Structure
 
@@ -24,4 +27,3 @@ Final delivery package for OpenCL matrix multiplication benchmarks and multi-dev
   - `notebooks/opencl_examples/tp0_benchmark/prof_files/`
 - Multi-device notebooks run their local script in the same folder.
 - Generated artifacts (`.csv`, caches, logs) are ignored by `.gitignore`.
-
